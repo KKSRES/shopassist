@@ -27,6 +27,8 @@ st.set_page_config(
 OPENAI_API_KEY = st.secrets.get("OPENAI_API_KEY", "")  # Will use secrets.toml
 OPENAI_API_BASE = st.secrets.get("OPENAI_API_BASE", "https://openai.vocareum.com/v1")
 
+
+
 # Model Configuration
 VECTOR_STORE_PATH = "./vector_store"
 EMBEDDING_MODEL = "text-embedding-3-small"
